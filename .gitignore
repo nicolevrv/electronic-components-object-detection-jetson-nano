@@ -1,0 +1,38 @@
+# ==========================================
+# Git Ignore - Proyecto RAN
+# ==========================================
+
+# Motores binarios de TensorRT y checkpoints pesados
+*.engine
+*.plan
+*.trt
+*.onnx
+*.pt
+
+# Python & Entornos Virtuales
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.env
+venv/
+env/
+ENV/
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Archivos de sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
+*.tmp
+
+# VS Code / IDEs
+.vscode/
+.idea/
+
+# Logs y capturas temporales de prueba
+*.log
+runs/
